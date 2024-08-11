@@ -1,5 +1,6 @@
 import Onebox from "../components/OneBox";
 import Login from "../components/LoginForm";
+import InboxPage from "../components/Inbox";
 
 /**
  * Renders the Home component which displays the Login component.
@@ -14,7 +15,8 @@ export default function Home() {
   return (
     <>
       {/* <Login /> */}
-      <Onebox />
+      {/* <Onebox /> */}
+      <InboxPage />
     </>
   );
 }
